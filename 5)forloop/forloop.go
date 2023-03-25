@@ -7,12 +7,12 @@ func main() {
     i := 1
     for i <= 3 {
         fmt.Println(i)
-        i = i + 1
+        i +=1
     }
 
     for j := 5; j <= 9; j++ {
         fmt.Println(j)
-   for a := 5 ; a <=7; a++ {
+    for a := 5 ; a <=7; a++ {
         fmt.Println(a)
         
     }
@@ -28,4 +28,5 @@ func main() {
         }
         fmt.Println(n)
     }
+
 }
